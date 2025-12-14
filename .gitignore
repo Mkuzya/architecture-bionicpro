@@ -1,2 +1,16 @@
 /postgres-keycloak-data
 2024__yandex-architecture-sso.code-workspace
+
+# macOS
+.DS_Store
+
+# Database data directories
+*-data/
+airflow-db-data/
+clickhouse-data/
+crm-data/
+telemetry-data/
+postgres-keycloak-data/
+
+# Airflow logs
+airflow/logs/
