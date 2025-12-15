@@ -98,7 +98,7 @@ curl http://localhost:8000/reports
 ```
 
 **Ожидаемый результат:**
-- `curl http://localhost:8000/health` возвращает `{"status":"ok"}`
+- `curl http://localhost:8000/health` возвращает `{"status":"healthy","service":"reports-api"}`
 - `curl http://localhost:8000/reports` возвращает `403 Forbidden` (без токена)
 
 #### Проверка Frontend

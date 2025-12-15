@@ -14,3 +14,10 @@ postgres-keycloak-data/
 
 # Airflow logs
 airflow/logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
