@@ -33,6 +33,3 @@ PARTITION BY toYYYYMM(date)
 ORDER BY (user_id, date, prothesis_id)
 SETTINGS index_granularity = 8192;
 
--- Index for fast user lookups
-CREATE INDEX IF NOT EXISTS idx_user_id ON reports_data_mart(user_id) TYPE minmax GRANULARITY 4;
-
